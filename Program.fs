@@ -10,10 +10,10 @@ open System.Windows.Forms
 module private CoreModule =
    type public ShapesE = I = 0|J = 1|L = 2|O = 3|S = 4|T = 5|Z = 6   //This enum lists the different shapes used.
 
-   let public BLOCK_SCALE = 48                        //The scale at which the blocks are drawn.
-   let public NO_COLOR = Color.FromArgb(0, 0, 0, 0)   //Indicates no color.
-   let public PIT_HEIGHT = 16                         //The pit's height.
-   let public PIT_WIDTH = 10                          //The pit's width.
+   let public BLOCK_SCALE = 48                        //Defines the scale at which the blocks are drawn.
+   let public NO_COLOR = Color.FromArgb(0, 0, 0, 0)   //Defines a lack of color.
+   let public PIT_HEIGHT = 16                         //Defines the pit's height.
+   let public PIT_WIDTH = 10                          //Defines the pit's width.
       
    //This structure defines the game's state.
    type public GameStateStr =
